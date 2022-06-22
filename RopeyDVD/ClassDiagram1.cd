@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RopeyDVD.StockDvd">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAEIEQAAAAAAAAIAAAAAAAhAAAACIEAAA=</HashCode>
+      <FileName>Feature10.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RopeyDVD.Feature11">
+    <Position X="14.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QICgAAgAAAAAEIAAAAAAAAhAIAAAQAAABQAAACIAAQA=</HashCode>
+      <FileName>Feature11.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RopeyDVD.Feature12">
+    <Position X="12.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAEIEAAAAAAAAAIAAAAAAAhAAAACIAAAA=</HashCode>
+      <FileName>Feature12.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RopeyDVD.Feature13">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAEAAAEIAAAAAAAAgAIAAAQAAABAAAACIAAAA=</HashCode>
+      <FileName>Feature13.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RopeyDVD.Feature14">
+    <Position X="11" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAgEQAIEIAAAEAgADoAIEAwcAgAhIAAACMAAAA=</HashCode>
+      <FileName>Feature14.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RopeyDVD.DvdInfo">
+    <Position X="16.25" Y="2.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAABIEIAAAAACAAACIAMAAAAQBASAACIEAAA=</HashCode>
+      <FileName>Feature1n2.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RopeyDVD.Home">
+    <Position X="19.75" Y="3.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEIBAAAAACAAAIAAIAABABgAAACIAAAA=</HashCode>
+      <FileName>Feature3.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RopeyDVD.LoanDvd">
+    <Position X="7.5" Y="5.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAEIAAAAAAAAAAIAAAAAAABgAAASIAAAA=</HashCode>
+      <FileName>Feature4.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RopeyDVD.LoanMember">
+    <Position X="6.75" Y="9.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEIBAACAAAAAAIQAAAAEABQAAACIAAAA=</HashCode>
+      <FileName>Feature5.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RopeyDVD.MemberInfo">
+    <Position X="20" Y="3" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AMAABRECECAAkIAgAAgCggAAIAAAAggAjAAAAqMASkU=</HashCode>
+      <FileName>Feature6.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RopeyDVD.NonLoanDvd">
+    <Position X="16.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYQEAAAAABAAEoEAAAAAAJAgIAAAIAgAhAAAACMAAAA=</HashCode>
+      <FileName>Feature7.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RopeyDVD.NonLoanMember">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAEIEAAAAAAAAAIAAAAAAAhAAAACIAAAA=</HashCode>
+      <FileName>Feature8.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RopeyDVD.Profile">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAOyENADQBAEEoAAQAAURUAIIAVgBk8IhAAANKMABgA=</HashCode>
+      <FileName>Feature9.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RopeyDVD.GlobalConnection">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GlobalConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RopeyDVD.Login">
+    <Position X="12.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAwIAAAEgEAAAAAAAgAIEAAUAAAAgAAAAIAAAA=</HashCode>
+      <FileName>Login.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RopeyDVD.RopeyCode">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BwIABAEAAgISoAA0AAIJFgAEASACAQEgEAACAAAQgAA=</HashCode>
+      <FileName>RopeyCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9.75" />
+</ClassDiagram>

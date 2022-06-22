@@ -1,0 +1,288 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.txtField:focus {
+    outline: none;
+}
+
+.main-container {
+    display: flex;
+}
+
+.side-bar-back {
+    height: 100vh;
+    background: white;
+    width: 290px;
+}
+
+.side-bar {
+    background-color: #25842C;
+    color: white;
+    height: 100vh;
+    padding: 10px 0px;
+    position: fixed;
+
+}
+
+.side-bar .main-nav {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.side-bar .main-nav #img {
+    height: 80px;
+    width: auto;
+}
+
+.side-bar .main-nav .main-nav-text {
+    font-weight: 600;
+    font-size: 120%;
+}
+
+.side-bar .nav-bars {
+    line-height: 2.2;
+    font-size: 105%;
+    list-style: none;
+}
+
+.side-bar .nav-bars li {
+    width: 250px;
+    transition: all 0.3s;
+}
+
+.side-bar .nav-bars .nav-link {
+    padding: 5px 0px;
+    padding-left: 40px;
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.side-bar .nav-bars .active-link {
+    background-color: rgba(0,0,0,0.3);
+}
+
+.side-bar .nav-bars li:hover {
+    background-color: rgba(0,0,0,0.15);
+}
+
+.side-bar .nav-bars i {
+    width: 35px;
+}
+
+.side-bar .nav-bar-footer{
+    position: absolute;
+    padding: 15px;
+    width: 100%;
+    bottom: 0;
+    z-index: 99;
+    left: 0;
+}
+
+.data-container {
+    background-color: #E3EDEB;
+    width: 100%;
+}
+
+.data-container #form1 .top-header-sec {
+    background-color: white;
+    text-align: right;
+    padding: 8px 20px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+#form1 .btn-logout {
+    color: white;
+    font-size: 1rem;
+    background-color: #795548;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#form1 .btn-logout:hover {
+    background-color: #2A5E2E;
+}
+
+/*------------------Login Page SEC START------------*/
+.login-container {
+    background-color: #FEF6E9;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    display: flex;
+    padding: 20px;
+}
+
+.login-container .cover-sec {
+    background-color: #25842C; 
+    color: #F5F9B8;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6rem;
+    border-radius: 20px;
+}
+
+.login-container .cover-sec #img {
+    height: 150px;
+    width: auto
+}
+
+.login-container .input-sec {
+    font-size: 1.2rem;
+    width: 400px;
+    padding: 10px 30px 10px 50px;
+}
+
+.login-container .input-sec .login-header {
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.login-container .input-sec .txtField {
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 3px;
+}
+
+.login-container .input-sec .lbl {
+    padding-top: 10px;
+}
+
+.login-container .input-sec .err-msg {
+    text-align: right;
+    color: red;
+    width: 100%;
+}
+
+.login-container .input-sec .btn-login {
+    width: 100%;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: #25842C;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s;
+}
+
+.login-container .input-sec .btn-login:hover {
+    background-color: #2A5E2E;
+}
+/*------------------Login Page SEC END------------*/
+
+#form1 .form-container {
+    margin: 10px 30px;
+}
+
+#form1 .form-heading-sec {
+    font-size: 140%;
+    font-weight: bold;
+    color: #BF360C;
+    margin-bottom: 5px;
+    font-family: "Century Gothic";
+}
+
+#form1 .sec {
+    background-color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#form1 .sec-spc {
+    margin-right: 15px;
+}
+
+#form1 .table-sec {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+#form1 .table-sec table {
+    width: 90%;
+}
+
+#form1 .table-sec table td {
+    padding: 5px 0px;
+}
+
+#form1 .table-sec .form-input {
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#form1 .btn,
+#form1 .btn2 {
+    padding: 6px 40px;
+    background-color: #00897B;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#form1 .btn2 {
+    background-color: #B71C1C;
+}
+
+#form1 .btn2:hover {
+    background-color: #C2185B;
+}
+
+#form1 .btn-table {
+    padding: 2px 20px;
+    background-color: #CDDC39;
+    border-radius: 5px;
+    border: none;
+    color: #4E342E;
+    font-size: 90%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+#form1 .btn:hover {
+    background-color: #00695C;
+}
+
+#form1 .btn-table:hover {
+    background-color: #9E9D24;
+}
+
+#form1 #GridView1,
+#form1 #GridView2,
+#form1 .gv{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#form1 #GridView1 td,
+#form1 #GridView2 td,
+#form1 .gv td{
+    padding: 5px 0px;
+}
+
+#form1 .gv {
+    margin-top: 10px;
+}
+#form1 .from-sec {
+    display: flex;
+}
